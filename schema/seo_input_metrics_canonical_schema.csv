@@ -1,0 +1,77 @@
+ORDINAL_POSITION,COLUMN_NAME,ROW_2_SOURCE_HEADER,SNOWFLAKE_TYPE,CATEGORY,DEFINITION,SOURCE_HEADERS_OBSERVED
+1,REPORTING_MONTH,,DATE,derived,Reporting month normalized to month start.,
+2,SITE,Site,VARCHAR,canonical_row_2,Publisher site name.,Site
+3,SITE_ID,Site ID,VARCHAR,canonical_row_2,Raptive site identifier.,Site ID
+4,MONTH_ENROLLED,Month Enrolled,DATE,canonical_row_2,Install month normalized to month start.,Month Enrolled
+5,INSTALL_YEAR,,"NUMBER(4,0)",derived,Year derived from MONTH_ENROLLED.,
+6,SERVICE_LEVEL,Service Level,VARCHAR,canonical_row_2,Service level as reported.,Service Level
+7,VERTICAL,Vertical,VARCHAR,canonical_row_2,Vertical rollup as reported.,Vertical
+8,GSC_STATUS,GSC Status,BOOLEAN,canonical_row_2,Whether Google Search Console is connected.,GSC Status
+9,P6MA,P6MA,"NUMBER(38,9)",canonical_row_2,Reported six-month average Google pageviews.,P6MA
+10,LAST_COMPLETED_MO,Last Completed Mo,"NUMBER(38,9)",canonical_row_2,Google pageviews in the last completed month.,Last Completed Mo
+11,GOOGLE_PVS_YTD,Google PVs YTD,"NUMBER(38,9)",canonical_row_2,Reported year-to-date Google pageviews.,Google PVs YTD
+12,MOM_PCT_LAST_28_DAYS,MoM% (Last 28 days),"NUMBER(38,9)",canonical_row_2,Reported month-over-month ratio using last 28 days.,MoM% (Last 28 days)
+13,YOY,YoY,"NUMBER(38,9)",canonical_row_2,Reported year-over-year ratio.,YoY
+14,YO2Y,Yo2Y,"NUMBER(38,9)",canonical_row_2,Reported two-year comparison ratio.,Yo2Y
+15,TOTAL_WORDPRESS_POSTS,# of Total Wordpress Posts,"NUMBER(38,0)",canonical_row_2,Total WordPress posts.,# of Total Wordpress Posts
+16,PUBLISHING_VOLUME_P3MA,Publishing Volume P3MA,"NUMBER(38,9)",canonical_row_2,Past three-month average publishing volume.,Publishing Volume P3MA
+17,CONTENT_UPDATES_P3MA,Content Updates P3MA,"NUMBER(38,9)",canonical_row_2,Past three-month average content updates.,Content Updates P3MA
+18,TOP_20_CONTENT_MEDIAN_AGE_MONTHS,Top 20% Content | Median Age in Months,"NUMBER(38,9)",canonical_row_2,Median age of top twenty percent of content.,Top 20% Content | Median Age in Months
+19,REPUBLISHES_LAST_COMPLETE_MONTH,# Republishes | Last Complete Month,"NUMBER(38,9)",canonical_row_2,Republishes in the last complete month.,# Republishes | Last Complete Month
+20,YIELD_PUBLISH_0_3_MONTHS,Yield / publish (0-3 months),"NUMBER(38,9)",canonical_row_2,Yield per publish for age 0-3 months.,Yield / publish (0-3 months)
+21,YIELD_PUBLISH_3_6_MONTHS,Yield / publish (3-6 months),"NUMBER(38,9)",canonical_row_2,Yield per publish for age 3-6 months.,Yield / publish (3-6 months)
+22,YIELD_PUBLISH_6_9_MONTHS,Yield / publish (6-9 months),"NUMBER(38,9)",canonical_row_2,Yield per publish for age 6-9 months.,Yield / publish (6-9 months)
+23,YIELD_PUBLISH_9_12_MONTHS,Yield / publish (9-12 months),"NUMBER(38,9)",canonical_row_2,Yield per publish for age 9-12 months.,Yield / publish (9-12 months)
+24,YIELD_PUBLISH_12_PLUS_MONTHS,Yield / publish (12+ months),"NUMBER(38,9)",canonical_row_2,Yield per publish for age 12+ months.,Yield / publish (12+ months)
+25,YIELD_UPDATE_0_3_MONTHS,Yield / update (0-3 months),"NUMBER(38,9)",canonical_row_2,Yield per update for age 0-3 months.,Yield / update (0-3 months)
+26,YIELD_UPDATE_3_6_MONTHS,Yield / update (3-6 months),"NUMBER(38,9)",canonical_row_2,Yield per update for age 3-6 months.,Yield / update (3-6 months)
+27,YIELD_UPDATE_6_9_MONTHS,Yield / update (6-9 months),"NUMBER(38,9)",canonical_row_2,Yield per update for age 6-9 months.,Yield / update (6-9 months)
+28,YIELD_UPDATE_9_12_MONTHS,Yield / update (9-12 months),"NUMBER(38,9)",canonical_row_2,Yield per update for age 9-12 months.,Yield / update (9-12 months)
+29,YIELD_UPDATE_12_PLUS_MONTHS,Yield / update (12+ months),"NUMBER(38,9)",canonical_row_2,Yield per update for age 12+ months.,Yield / update (12+ months)
+30,AVG_WORD_COUNT,Avg Word Count,"NUMBER(38,9)",canonical_row_2,Average WordPress post word count.,Avg Word Count
+31,PAGES_LT_500_WORDS,# Pages < 500 words,"NUMBER(38,0)",canonical_row_2,Count of pages under 500 words.,# Pages < 500 words
+32,PCT_PAGES_LT_500_WORDS,% Pages < 500 words (Ratio of total WP Posts),"NUMBER(38,9)",canonical_row_2,Ratio of WordPress posts under 500 words.,% Pages < 500 words (Ratio of total WP Posts)
+33,AUTHORITY_SCORE_SEMRUSH,Authority Score (Semrush),"NUMBER(38,9)",canonical_row_2,Semrush authority score.,Authority Score (Semrush) | Domain Authority | Domain Authority (Semrush)
+34,PCT_BRANDED_SEARCH_VOLUME,% Branded Search Volume,"NUMBER(38,9)",canonical_row_2,Reported branded search-volume ratio.,% Branded Search Volume | Branded Search Volume % (GSC Impressions)
+35,ABS_BRANDED_CLICKS,Abs Branded Clicks,"NUMBER(38,9)",canonical_row_2,Absolute branded search clicks.,Abs Branded Clicks
+36,PCT_BRANDED_SEARCH_CLICKS,% Branded Search Clicks,"NUMBER(38,9)",canonical_row_2,Reported branded search-click ratio.,% Branded Search Clicks
+37,PAGEVIEWS_EMAIL_P3MA,Pageviews | Email P3MA,"NUMBER(38,9)",canonical_row_2,Reported email pageviews P3MA.,Pageviews | Email P3MA
+38,PAGEVIEWS_PINTEREST_P3MA,Pageviews | Pinterest P3MA,"NUMBER(38,9)",canonical_row_2,Reported Pinterest pageviews P3MA.,Pageviews | Pinterest P3MA
+39,DISCOVER_CLICKS_P3MA,Discover Clicks | P3MA,"NUMBER(38,9)",canonical_row_2,Reported Discover clicks P3MA.,Discover Clicks | P3MA
+40,DISCOVER_CLICKS_REPORTING_MONTH,Discover Clicks | Reporting Month,"NUMBER(38,9)",canonical_row_2,Discover clicks in reporting month.,Discover Clicks | Last Completed Month | Discover Clicks | Reporting Month
+41,DISCOVER_CTR_P3MA,Discover CTR | P3MA,"NUMBER(38,9)",canonical_row_2,Reported Discover CTR P3MA.,Discover CTR | P3MA
+42,DISCOVER_CTR_REPORTING_MONTH,Discover CTR | Reporting Month,"NUMBER(38,9)",canonical_row_2,Discover CTR in reporting month.,Discover CTR | Reporting Month
+43,GSC_CLICKS_REPORTING_MONTH,GSC Clicks | Reporting Month,"NUMBER(38,9)",canonical_row_2,GSC clicks in reporting month.,GSC Clicks | Last Completed Month | GSC Clicks | Reporting Month
+44,DISCOVER_PCT_REPORTING_MONTH,Discover % | Reporting Month,"NUMBER(38,9)",canonical_row_2,Discover clicks divided by GSC clicks in reporting month.,Discover % | Last Completed Month (Discover / GSC Clicks) | Discover % | Reporting Month
+45,GSC_CLICKS_P3MA,GSC Clicks | P3MA,"NUMBER(38,9)",canonical_row_2,Reported GSC clicks P3MA.,GSC Clicks | P3MA
+46,DISCOVER_PCT_P3MA,Discover % | P3MA,"NUMBER(38,9)",canonical_row_2,Reported Discover share P3MA; historical unit and calculation differences are flagged.,Discover % | P3MA | Discover Clicks % | P3MA (Discover / GSC Clicks)
+47,OPTIMIZED_OG_TITLES,Optimized OG Titles,VARCHAR,canonical_row_2,Current optimized OG-title pass/fail status.,Optimized OG Titles
+48,OPTIMIZED_OG_IMAGES,Optimized OG Images,VARCHAR,canonical_row_2,Current optimized OG-image pass/fail status using at least 1200 pixels.,Optimized OG Images
+49,AVG_ADS_TO_CONTENT_RATIO,Avg Ads-to-Content Ratio,"NUMBER(38,9)",canonical_row_2,Average ads-to-content ratio.,AVG_ADS_TO_CONTENT_RATIO | Avg Ads-to-Content Ratio
+50,MOBILE_AD_DENSITY,Mobile Ad Density,"NUMBER(38,9)",canonical_row_2,Latest mobile ad density.,Mobile Ad Density
+51,AVG_ADS_IN_VIEW,Avg Ads in View,"NUMBER(38,9)",canonical_row_2,Average ads in view.,AVG_ADS_IN_VIEW | Avg Ads in View
+52,AVG_AD_REFRESH,Avg Ad Refresh,"NUMBER(38,9)",canonical_row_2,Average ad refresh.,AVG_AD_REFRESH | Avg Ad Refresh
+53,TOTAL_UNIQUE_GPIDS,Total Unique GPIDs,"NUMBER(38,0)",canonical_row_2,Total unique GPIDs.,TOTAL_UNIQUE_GPIDS | Total Unique GPIDs
+54,AVG_PAGE_WEIGHT,Avg Page Weight,"NUMBER(38,9)",canonical_row_2,Average page weight.,AVG_PAGE_WEIGHT | Avg Page Weight
+55,CLS,CLS,"NUMBER(38,9)",canonical_row_2,Cumulative Layout Shift.,CLS
+56,INP,INP,"NUMBER(38,9)",canonical_row_2,Interaction to Next Paint.,INP
+57,LCP,LCP,"NUMBER(38,9)",canonical_row_2,Largest Contentful Paint.,LCP
+58,WORKBOOK_ACCESS,Workbook Access? (Y/N),BOOLEAN,canonical_row_2,Whether the site has workbook access.,Workbook Access? (Y/N)
+59,WORKBOOK_VISITS,Workbook Visits,"NUMBER(38,0)",canonical_row_2,Workbook visits in the reporting period.,Workbook Visits
+60,PTU_RECS_GIVEN,PTU Recs Given,"NUMBER(38,0)",canonical_row_2,Pages-to-update recommendations issued.,PTU Recs Given
+61,AS_BIN,AS BIN,VARCHAR,canonical_row_2,Semrush authority-score bin.,AS BIN
+62,ACTIVE_BIN,Active Bin,VARCHAR,canonical_row_2,Active/inactive bin.,Active Bin
+63,YOY_BIN,YoY Bin,VARCHAR,canonical_row_2,Year-over-year performance bin.,YoY Bin
+64,A2C_BIN,A2C Bin,VARCHAR,canonical_row_2,Ads-to-content bin.,A2C Bin
+65,ONE_MILLION_CLUB,1M Club?,BOOLEAN,canonical_row_2,Whether the site is in the one-million-PV club.,1M Club?
+66,PV_STATUS,PV Status,VARCHAR,canonical_row_2,Pageview data quality/status bin.,PV Status
+67,SOURCE_FILE_ID,,VARCHAR,lineage,Google Drive file ID or local source ID.,
+68,SOURCE_FILE_NAME,,VARCHAR,lineage,Source file title.,
+69,SOURCE_URL,,VARCHAR,lineage,Source URL when available.,
+70,SOURCE_TAB,,VARCHAR,lineage,Source tab.,
+71,SOURCE_MODIFIED_AT,,TIMESTAMP_TZ,lineage,Source modified timestamp.,
+72,SOURCE_ROW_NUMBER,,"NUMBER(38,0)",lineage,One-based source row number.,
+73,SOURCE_SCOPE,,VARCHAR,lineage,"Network, vertical partition, or historical subset scope.",
+74,REPORTING_SCOPE_STATUS,,VARCHAR,lineage,Coverage status for the reporting month.,
+75,SOURCE_SCHEMA_VERSION,,VARCHAR,lineage,Named source schema vintage.,
+76,SOURCE_QUALITY_FLAGS,,VARCHAR,lineage,Semicolon-delimited source quality flags.,
